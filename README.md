@@ -1,3 +1,16 @@
 # Guess-Guess
 
-Guess-Guess is a terminal-based, real-time multiplayer word-guessing game built entirely in C. Functioning on a client-server architecture, the game pits two players against each other in a competitive race to guess a hidden word or phrase. The game leverages POSIX sockets for network communication and pthreads for concurrent session management , wrapped in a colorful and interactive command-line interface.
+A multiplayer terminal-based word guessing game built in C using POSIX sockets and pthreads. The project features room-based matchmaking, real-time gameplay synchronization, and an interactive terminal UI.
+
+## Contributions
+- Technical documentation
+- Testing and debugging
+- Implementation assistance
+- Gameplay and synchronization validation
+
+## Tech Stack
+- C (C11)
+- POSIX Sockets
+- pthreads
+- TCP/IP Networking
+- JSON-based communication
